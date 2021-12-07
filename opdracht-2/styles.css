@@ -3,3 +3,49 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/*<!--    OPDRACHT 2.1    -->*/
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+/*<!--    OPDRACHT 2.2    -->*/
+.two,div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+/*<!--    OPDRACHT 2.3    -->*/
+.three{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap:80px;
+    flex-wrap: wrap;
+}
+/*<!--    OPDRACHT 2.4    -->*/
+.four,form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/*<!--    OPDRACHT 2.5    -->*/
+.five,article{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    /*min-width: 300px;*/
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+}
